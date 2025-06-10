@@ -3,8 +3,7 @@ import random
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import os
-API_TOKEN = os.getenv("7979898115:AAE7UGMxfgrUiIOkF9FCSBVVoxgIUXdtDmQE")
-
+API_TOKEN = os.getenv("API_TOKEN")
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
